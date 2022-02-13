@@ -38,5 +38,5 @@ app.post("/events", (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
+  console.log(`Query Microservice running on port ${PORT}`);
 })
